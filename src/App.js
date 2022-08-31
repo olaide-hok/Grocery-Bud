@@ -82,8 +82,6 @@ function App() {
     localStorage.setItem('list', JSON.stringify(list))
   }, [list])
   
-
-
   return (
     <section className='section-center'>
       <form className="grocery-form"
